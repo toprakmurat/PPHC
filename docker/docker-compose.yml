@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  securepulse-server:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: securepulse-fhe
+    ports:
+      - "8443:8443"
+    volumes:
+      - ../models/exports:/app/models/exports:ro
+    environment:
+      - FHE_SCHEME=CKKS
+      - LOG_LEVEL=INFO
+    restart: unless-stopped
