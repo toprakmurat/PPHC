@@ -1,13 +1,12 @@
-# SecurePulse-FHE
+# PPHC
 
-## Mahremiyet Odaklı Sağlık Risk Analizi
 ### Privacy-Focused Health Risk Analysis with Fully Homomorphic Encryption
 
 ---
 
 ## Overview
 
-**SecurePulse-FHE** is a Hardware-Software Co-design framework for privacy-preserving health analysis using **Fully Homomorphic Encryption (FHE)**. The system enables secure computation on encrypted medical data without ever exposing sensitive patient information—achieving true **"Encryption in Use"** capability.
+**PPHC** is a Hardware-Software Co-design framework for privacy-preserving health analysis using **Fully Homomorphic Encryption (FHE)**. The system enables secure computation on encrypted medical data without ever exposing sensitive patient information—achieving true **"Encryption in Use"** capability.
 
 ### Zero-Trust Architecture
 
@@ -23,7 +22,7 @@ This project implements a Zero-Trust security model where:
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
-│                          SecurePulse-FHE                                │
+│                          PPHC                                           │
 ├─────────────────────────────────────────────────────────────────────────┤
 │                                                                         │
 │  ┌─────────────┐    ┌──────────────────┐    ┌───────────────────────┐  │
@@ -54,7 +53,7 @@ This project implements a Zero-Trust security model where:
 ## Project Structure
 
 ```
-SecurePulse-FHE/
+PPHC/
 ├── core/                   # C++ FHE math kernels
 │   ├── include/
 │   │   └── math/
